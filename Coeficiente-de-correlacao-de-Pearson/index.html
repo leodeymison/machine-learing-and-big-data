@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coeficiênte de correlação de Pearson</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="primary">
+        <div class="title">
+            <h1>Calculo de correlaçao de Pearson</h1>
+        </div>
+        <div class="push">
+            <input type="number" min="0" id="valuesX" placeholder="X">
+            <input type="number" min="0" id="valuesY" placeholder="Y">
+            <button onclick="push()">Enviar</button>
+        </div>
+        <br>
+        <ul id="list">
+            <li class="menu">
+                <p><strong>X</strong></p>
+                <p><strong>Y</strong></p>
+            </li>
+        </ul>
+        <div class="result">
+            <button onclick="pearson()">Calcular</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

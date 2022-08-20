@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Regressão linear multipla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="mensage">
+                <h1>Modelo de Regressão linear multipla</h1>
+                <p>
+                    Nesse modelo vamos prever a estimativa de quantas bactérias serão 
+                    mortas se aplicarmos uma certa quantidade de veneno e quanto de água estiver no solo.
+                    <br>
+                    <a href="./dados.html">base de dados</a>
+                </p>
+                
+            </div>
+            <div class="inputs">
+                <input id="input01" type="number" placeholder="Veneno">
+                <input id="input02" type="number" placeholder="Água">
+                <button onclick="Start()">Prever</button>
+            </div>
+            <div class="preview" id="preview">
+                0 bactérias
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
